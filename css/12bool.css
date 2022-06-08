@@ -1,0 +1,39 @@
+/* * RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* * RESPONSIVE */
+
+/* ! SMALL (sm) */
+
+@media screen and (min-width: 576px){
+
+}
+
+/* ! MEDIUM (md) */
+
+@media screen and (min-width: 768px){
+
+}
+
+/* ! LARGE (lg) */
+
+@media screen and (min-width: 992px){
+
+}
+
+/* ! EXTRA LARGE (xl) */
+
+@media screen and (min-width: 1200px){
+
+}
+
+/* ! EXTRA EXTRA LARGE (xxl) */
+
+@media screen and (min-width: 1400px){
+
+}
