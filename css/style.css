@@ -1,0 +1,43 @@
+/* * Generics */
+
+body{
+    background-color: lightgray;
+}
+
+h1, h2{
+    margin-bottom: 10px;
+}
+
+/* * Layout */
+
+.container{
+    background-color: #fff;
+    padding: 10px 30px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.row > [class^="col"]{
+    background-color: #006CFA;
+    min-height: 50px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row > [class^="col"].nest{
+    display: block;
+}
+
+.row.row-nested{
+    padding: 10px;
+}
+
+.row.row-nested > [class^="col"]{
+    background-color: #00E165;
+    border: 1px solid #006CFA;
+}

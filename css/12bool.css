@@ -6,33 +6,130 @@
     box-sizing: border-box;
 }
 
-/* * RESPONSIVE */
+/* * LAYOUT */
 
-/* ! SMALL (sm) */
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row > [class^="col"]{
+    width: 100%;
+    max-width: 100%;
+}
+
+.col-12{
+    flex-basis: 100%;
+}
+
+.col-11{
+    flex-basis: calc(100% / 12 * 11);
+}
+
+.col-10{
+    flex-basis: calc(100% / 12 * 10);
+}
+
+.col-9{
+    flex-basis: calc(100% / 12 * 9);
+}
+
+.col-8{
+    flex-basis: calc(100% / 12 * 8);
+}
+
+.col-7{
+    flex-basis: calc(100% / 12 * 7);
+}
+
+.col-6{
+    flex-basis: 50%;
+}
+
+.col-5{
+    flex-basis: calc(100% / 12 * 5);
+}
+
+.col-4{
+    flex-basis: calc(100% / 3);
+}
+
+.col-3{
+    flex-basis: calc(100% / 4);
+}
+
+.col-2{
+    flex-basis: calc(100% / 6);
+}
+
+.col-1{
+    flex-basis: calc(100% / 12);
+}
+
+/* * FLEXBOX */
+
+.d-flex{
+    display: flex;
+}
+
+.jc-start{
+    justify-content: flex-start;
+}
+
+.jc-end{
+    justify-content: flex-end;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+.jc-between{
+    justify-content: space-between;
+}
+
+.jc-around{
+    justify-content: space-around;
+}
+
+.jc-evenly{
+    justify-content: space-evenly;
+}
+
+/* ! RESPONSIVE */
+
+/* * SMALL (sm) */
 
 @media screen and (min-width: 576px){
 
 }
 
-/* ! MEDIUM (md) */
+/* * MEDIUM (md) */
 
 @media screen and (min-width: 768px){
 
 }
 
-/* ! LARGE (lg) */
+/* * LARGE (lg) */
 
 @media screen and (min-width: 992px){
 
 }
 
-/* ! EXTRA LARGE (xl) */
+/* * EXTRA LARGE (xl) */
 
 @media screen and (min-width: 1200px){
 
 }
 
-/* ! EXTRA EXTRA LARGE (xxl) */
+/* * EXTRA EXTRA LARGE (xxl) */
 
 @media screen and (min-width: 1400px){
 
