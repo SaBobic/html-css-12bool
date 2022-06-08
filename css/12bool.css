@@ -127,28 +127,48 @@
     display: flex;
 }
 
-.jc-start{
+.justify-start{
     justify-content: flex-start;
 }
 
-.jc-end{
+.justify-end{
     justify-content: flex-end;
 }
 
-.jc-center{
+.justify-center{
     justify-content: center;
 }
 
-.jc-between{
+.justify-between{
     justify-content: space-between;
 }
 
-.jc-around{
+.justify-around{
     justify-content: space-around;
 }
 
-.jc-evenly{
+.justify-evenly{
     justify-content: space-evenly;
+}
+
+.align-stretch{
+    align-items: stretch;
+}
+
+.align-start{
+    align-items: flex-start;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.align-baseline{
+    align-items: baseline;
 }
 
 /* ! RESPONSIVE */
